@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_word"
+        android:ems="8"
+        android:hint="Word"/>
+
+    <EditText
+        android:ems="8"
+        android:id="@+id/Meaning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/edit_word"
+        android:hint="Meaning"/>
+
+    <EditText
+        android:ems="8"
+        android:id="@+id/Sample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/Meaning"
+        android:hint="Sample"/>
+
+</RelativeLayout>
